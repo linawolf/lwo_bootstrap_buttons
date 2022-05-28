@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:settings</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <align>
+                        <TCEforms>
+                            <label>Ausrichtung</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <default>justify-content-start</default>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">Anfang</numIndex>
+                                        <numIndex index="1">justify-content-start</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">Zentriert</numIndex>
+                                        <numIndex index="1">justify-content-center</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">Ende</numIndex>
+                                        <numIndex index="1">justify-content-right</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">Gleichmäßig verteilt</numIndex>
+                                        <numIndex index="1">justify-content-evenly</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">Verteilt</numIndex>
+                                        <numIndex index="1">justify-content-between</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </align>
+                    <button_size>
+                        <TCEforms>
+                            <label>Ausrichtung</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <default> </default>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">Normal</numIndex>
+                                        <numIndex index="1"> </numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">Größer</numIndex>
+                                        <numIndex index="1">btn-lg</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">Kleiner</numIndex>
+                                        <numIndex index="1">btn-sm</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </button_size>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

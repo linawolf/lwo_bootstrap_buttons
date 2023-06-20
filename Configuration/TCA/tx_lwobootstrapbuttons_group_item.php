@@ -27,6 +27,9 @@ return [
         'typeicon_classes' => [
             'default' => 'content-widget-number'
         ],
+        'security' => [
+            'ignorePageTypeRestriction' => true,
+        ]
     ],
     'interface' => [
         'showRecordFieldList' => '

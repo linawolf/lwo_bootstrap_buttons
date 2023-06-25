@@ -39,13 +39,17 @@
                                         <numIndex index="0">Verteilt</numIndex>
                                         <numIndex index="1">justify-content-between</numIndex>
                                     </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">Untereinander</numIndex>
+                                        <numIndex index="1">btn-group-vertical</numIndex>
+                                    </numIndex>
                                 </items>
                             </config>
                         </TCEforms>
                     </align>
                     <button_size>
                         <TCEforms>
-                            <label>Ausrichtung</label>
+                            <label>Größe</label>
                             <config>
                                 <type>select</type>
                                 <renderType>selectSingle</renderType>

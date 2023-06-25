@@ -1,5 +1,7 @@
 <?php
 
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+
 defined('TYPO3') or die('Access denied.');
 
 // Add Content Element
@@ -8,7 +10,7 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['lwo_lwo_button_group'] ?? 
 }
 
 // Add content element to selector list
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
+ExtensionManagementUtility::addTcaSelectItem(
     'tt_content',
     'CType',
     [
@@ -77,7 +79,7 @@ $GLOBALS['TCA']['tt_content']['columns'] = array_replace_recursive(
 
 
 // Add flexForms for content element configuration
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
+ExtensionManagementUtility::addPiFlexFormValue(
     '*',
     'FILE:EXT:lwo_bootstrap_buttons/Configuration/FlexForms/ButtonGroup.xml',
     'lwo_button_group'
